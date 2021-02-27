@@ -1,0 +1,40 @@
+.VendingMachine-title {
+    margin-top: 5rem;
+    color:rgb(88, 87, 87);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.VendingMachine-body {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.VendingMachine-picture {
+    margin: auto;
+    width: 70em;
+    height: 600px;
+    background-image: url("vm.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.VendingMachine-list {
+    margin: auto;
+    width: 30em;  
+    background-color: rgb(223, 219, 219,0.7);
+    border-radius: 10px;
+   
+}
+
+.VendingMachine-list a {
+     color:rgb(109, 108, 108);
+    text-decoration: none;
+}
+
+.VendingMachine-list a:hover {
+    background-color: rgb(253, 253, 253);
+}
